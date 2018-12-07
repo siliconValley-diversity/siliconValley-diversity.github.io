@@ -1,0 +1,333 @@
+/* Apply a natural box layout model to all elements */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #474747;
+	width: 100%;
+	min-height: 100%;
+	background-color: rgb(33,33,33);
+}
+
+#spacer{
+	height: 50vh;
+}
+
+.sticky{
+	position: absolute;
+	top: 0px;
+	clear: both;
+}
+#boxSpacer{
+	height: 250vh;
+}
+
+#theDOTS{
+	width: 95%;
+	height: 70vh;
+}
+
+select{
+   background: transparent;
+   color: #FCDCBF;
+   text-align:left;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px;
+   width:100px;
+   border: 1px solid #FFFFFF;
+   background-color: rgb(33,33,33);
+
+}
+
+select-selected{
+	background: transparent;
+}
+
+.checkbox{
+
+
+}
+
+input[type="checkbox"] {
+    width: auto;
+    opacity: 0.9;
+	border: solid white;
+    left: 0;
+    margin-left: -20px;
+	color: #DDDDDD;
+}
+
+.gender_select{
+}
+
+.ethnicity_select{
+
+}
+
+#leftFloat p {
+	position: relative;
+	text-align: left;
+	transform: translate(0%, 0);
+	margin: 10px 10% 10px 12.5%;
+	color: #FFFFFF;
+}
+
+#theDOTS text{
+	fill: #FFF;
+}
+
+.p2{
+	font-family: 'Arial';
+	fill: #FFFFFF;
+	font-size: 1.25rem;
+	text-anchor:middle;
+}
+
+#Intro{
+	background-color: rgb(33,33,33);
+	color: rgb(255,255,255);
+/* 	padding-top: 20%;
+	padding-bottom: 20%;
+ */	height: 100vh;
+}
+
+#leftFloat div{
+	/* position: relative; */
+	height: 100vh;
+	clear: both;
+	margin-top: 50vh;
+	margin-bottom: 50vh;
+}
+
+h1 {
+	width: 70%;
+	position: relative;
+	transform: translate(0%, 0);
+	margin: 20px 5% 20px 5%;
+	text-align: center;
+	font-size: 24px;
+}
+
+h2{
+	font-family: 'Georgia Bold';
+	font-weight: bold;
+	color: #FCDCBF;
+	position: relative;
+	margin: 20px 20% 20px 20%;
+	text-align: center;
+	font-size: 4rem;
+}
+
+.h2{
+	font-family: 'Arial';
+	fill: #FCDCBF;
+	position: relative;
+	margin: 20px 20% 20px 20%;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+h3{
+	position: relative;
+	transform: translate(0%, 0);
+	text-align: center;
+	margin: 50px 25% 50px 25%;
+	font-family: 'Georgia';
+	color: #D7D8D8;
+	font-size: 1.3rem;
+	line-height: 160%;
+}
+
+h5{
+	position: relative;
+	transform: translate(0%, 0);
+	text-align: center;
+	margin: 50px 5% 50px 5%;
+	font-family: 'Georgia bold';
+	font-weight: bold;
+	color: #D7D8D8;
+	font-size: 1.3rem;
+
+}
+
+.h3{
+	position: relative;
+	text-align: center;
+	margin: 50px 25% 50px 25%;
+	font-family: 'Arial';
+	fill: #D7D8D8;
+	font-size: 1.2rem;
+
+}
+
+.h4{
+	position: relative;
+	margin: 50px 25% 50px 25%;
+	font-family: 'Arial';
+	fill: #D7D8D8;
+	font-size: .9rem;
+
+}
+
+svg {
+	display:block;
+	margin: 30px auto 30px auto;
+
+}
+
+#boxHolder{
+	width:100%;
+	top: 50vh;
+	margin-bottom: 10vh;
+}
+
+#part_6_text{
+	position:sticky;
+	position: -webkit-sticky;
+	top: 30%;
+}
+#part_3_text{
+	position:sticky;
+	position: -webkit-sticky;
+	top: 30%;
+
+}
+#part_4_text{
+	position:sticky;
+	position: -webkit-sticky;
+	top: 60%;
+}
+#part1_boxes{
+	clear: both;
+	height:450vh;
+}
+#box_writeup{
+	position:sticky;
+	position: -webkit-sticky;
+	top:10%;
+	height: 80vh;
+}
+
+#leftHold{
+	float:left;
+}
+#leftFloat{
+	clear: both;
+	width: 33%;
+}
+
+#rightFloat{
+	position: absolute;
+	top: 100%;
+	left: 33%;
+	float:right;
+	width: 66%;
+	height: 1450vh;
+}
+#part1-2 {
+	top:5vh;
+	position:sticky;
+	clear: both;
+	align-content: center;
+	width: 100%;
+	background-color: rgb(33,33,33);
+	color: rgb(255,255,255);
+}
+
+#part2-1 {
+	clear: both;
+	align-content: center;
+	width: 100%;
+	background-color: rgb(250,250,250);
+}
+
+#headMenu {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+#selection1 {
+	display: inline;
+
+	text-align: left;
+}
+#selection2 {
+	display: inline;
+
+	text-align: left;
+}
+
+#box_texts { 
+	height: 100px;
+}
+
+#box_text_1 {
+	text-align: center;
+	padding-top: 30px;
+}
+
+#box_text_2 {
+	text-align: center;
+	padding-top: 30px;
+}
+
+#box_text_3 {
+	text-align: center;
+	padding-top: 30px;
+}
+#sortCheckBox {
+	margin-top: 30px;
+	margin-right: 10px;
+	-webkit-transform: scale(2);
+}
+#checkbox {
+	text-align: center;
+}
+#d3Stuff{
+	background-color: rgb(33,33,33);
+	color: rgb(255,255,255);
+}
+
+#caption{
+	position: sticky;
+	position: -webkit-sticky;
+	top: 12.5%;
+
+}
+
+.active{
+	display: block;
+}
+
+.inactive{
+	display: none;
+}
+
+.dots-style{
+	stroke-width: 1px;
+	stroke: rgb(0,0,0);
+	/*fill: rgb(30,76,97);*/
+}
+
+.line{
+	stroke-width: 1px;
+	stroke: rgb(255,255,255);
+
+}
+
+#box_text_1,#box_text_2,#box_text_3 {
+	position: relative;
+	transform: translate(0%, 0);
+	margin: 10px 10% 10px 12.5%;
+	
+	font-family: 'ArialMT';
+	color: #FFFFFF;
+	font-size: 1.25rem;
+	
+}

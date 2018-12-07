@@ -1,0 +1,149 @@
+
+/* Apply a natural box layout model to all elements */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #474747;
+	width: 100%;
+	min-height: 100%;
+}
+.explore{
+	position: relative;
+	padding-top: 2rem;
+	padding-left: 100px;
+	padding-right: 100px;
+	height: 100%;
+	background-color: white;
+}
+.explore .lead_text{
+	margin: auto;
+	width: 100%;
+	padding: 1rem 0;
+	text-align: center;
+}
+.lead_text p{
+	color: #4a4a4a;
+}
+.explore .chart_sheet{
+	position:relative;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+#gender_barchart{
+	width: 35%;
+}
+.barchart_label text{
+	fill: black;
+}
+.com_rosechart{
+	width: 60%;
+}
+.rosechart svg{
+	margin: 0;
+}
+.explore .chart_title{
+	text-align: center;
+	padding: 1rem 0;
+}
+h4{
+	font-size: 2rem;
+}
+.gender_barchart, .com_rosechart{
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+div.tooltip {
+    position: fixed;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: white;
+    border: 1px solid black;
+    border-radius: 8px;
+	pointer-events: none;
+	z-index: 1;
+}
+
+figure {
+	position: relative;
+	float: left;
+    /* width: 15%; */
+    /* height: 15%; */
+	/* min-width: 400px; */
+	/* margin-top: -120px; */
+}
+
+.bar_male{
+	fill: #003049;
+}
+.bar_female{
+	fill: #5efffc;
+}
+
+.caption p {
+		margin: 0;
+		text-indent: 12px;
+	}
+
+.canvas {
+	font-family: 'Cabin', sans-serif;
+ 	font-size: 14px;
+ 	fill: #474747;
+ 	font-weight: normal;
+}
+
+.wedge {
+	stroke: 0;
+	stroke-width: 1px;
+	/*shape-rendering: crispEdges;*/
+}
+.bchart_label text{
+	fill: black;
+}
+.label {
+	font-size: 8px;
+}
+
+.Hispanic_or_Latino {
+	fill: rgb(147, 14, 25);
+}
+
+.White {
+	fill: rgb(252,200,112);
+}
+
+.Black_or_African_American {
+	fill: rgb(255,82,21);
+}
+
+.Asian {
+	fill: rgb(249,148,70);
+}
+
+.Minorities {
+	fill: rgb(78, 46, 55);
+}
+
+.legend {
+	width: 400px;
+	height: 50px;
+	padding: 0 20px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	top: -150px;
+	text-align: center;
+}

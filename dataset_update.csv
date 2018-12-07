@@ -1,0 +1,721 @@
+Company,Percentage,Count,Gender,Race,job_category
+Adobe,0.753979335381178,54,Male,Hispanic_or_Latino,Executive and manager
+Adobe,17.4951130969003,1253,Male,White,Executive and manager
+Adobe,0.363027087405753,26,Male,Black_or_African_American,Executive and manager
+Adobe,4.53783859257191,325,Male,Asian,Executive and manager
+Adobe,0.20943870427255,15,Male,Minorities ,Executive and manager
+Adobe,0.698129014241832,50,Female,Hispanic_or_Latino,Executive and manager
+Adobe,7.66545657637531,549,Female,White,Executive and manager
+Adobe,0.12566322256353,9,Female,Black_or_African_American,Executive and manager
+Adobe,3.44875733035465,247,Female,Asian,Executive and manager
+Adobe,0.181513543702876,13,Female,Minorities ,Executive and manager
+Adobe,1.04719352136275,75,Male,Hispanic_or_Latino,Professionals
+Adobe,18.5004188774085,1325,Male,White,Professionals
+Adobe,0.349064507120916,25,Male,Black_or_African_American,Professionals
+Adobe,9.39681653169506,673,Male,Asian,Professionals
+Adobe,0.516615470538956,37,Male,Minorities ,Professionals
+Adobe,0.837754817090198,60,Female,Hispanic_or_Latino,Professionals
+Adobe,5.62691985478916,403,Female,White,Professionals
+Adobe,0.251326445127059,18,Female,Black_or_African_American,Professionals
+Adobe,5.47333147165596,392,Female,Asian,Professionals
+Adobe,0.279251605696733,20,Female,Minorities ,Professionals
+Adobe,0.572465791678302,41,Male,Hispanic_or_Latino,Supportive workers
+Adobe,11.7006422786931,838,Male,White,Supportive workers
+Adobe,0.404914828260263,29,Male,Black_or_African_American,Supportive workers
+Adobe,1.71739737503491,123,Male,Asian,Supportive workers
+Adobe,0.279251605696733,20,Male,Minorities ,Supportive workers
+Adobe,0.753979335381178,54,Female,Hispanic_or_Latino,Supportive workers
+Adobe,5.37559340966211,385,Female,White,Supportive workers
+Adobe,0.139625802848366,10,Female,Black_or_African_American,Supportive workers
+Adobe,1.13096900307177,81,Female,Asian,Supportive workers
+Adobe,0.16755096341804,12,Female,Minorities ,Supportive workers
+Airbnb,0.573813249869588,11,Male,Hispanic_or_Latino,Executive and manager
+Airbnb,7.77256129368805,149,Male,White,Executive and manager
+Airbnb,0.417318727177882,8,Male,Black_or_African_American,Executive and manager
+Airbnb,2.8169014084507,54,Male,Asian,Executive and manager
+Airbnb,0.573813249869588,11,Male,Minorities ,Executive and manager
+Airbnb,0.469483568075117,9,Female,Hispanic_or_Latino,Executive and manager
+Airbnb,5.79029733959311,111,Female,White,Executive and manager
+Airbnb,0.156494522691706,3,Female,Black_or_African_American,Executive and manager
+Airbnb,1.72143974960876,33,Female,Asian,Executive and manager
+Airbnb,0.156494522691706,3,Female,Minorities ,Executive and manager
+Airbnb,1.35628586332812,26,Male,Hispanic_or_Latino,Professionals
+Airbnb,18.3620239958268,352,Male,White,Professionals
+Airbnb,0.782472613458529,15,Male,Black_or_African_American,Professionals
+Airbnb,14.5539906103286,279,Male,Asian,Professionals
+Airbnb,0.938967136150235,18,Male,Minorities ,Professionals
+Airbnb,1.72143974960876,33,Female,Hispanic_or_Latino,Professionals
+Airbnb,11.1632759520083,214,Female,White,Professionals
+Airbnb,0.834637454355764,16,Female,Black_or_African_American,Professionals
+Airbnb,8.92018779342723,171,Female,Asian,Professionals
+Airbnb,0.573813249869588,11,Female,Minorities ,Professionals
+Airbnb,0.99113197704747,19,Male,Hispanic_or_Latino,Supportive workers
+Airbnb,5.52947313510694,106,Male,White,Supportive workers
+Airbnb,0.417318727177882,8,Male,Black_or_African_American,Supportive workers
+Airbnb,1.30412102243088,25,Male,Asian,Supportive workers
+Airbnb,0.730307772561294,14,Male,Minorities ,Supportive workers
+Airbnb,1.35628586332812,26,Female,Hispanic_or_Latino,Supportive workers
+Airbnb,7.981220657277,153,Female,White,Supportive workers
+Airbnb,0.312989045383412,6,Female,Black_or_African_American,Supportive workers
+Airbnb,1.09546165884194,21,Female,Asian,Supportive workers
+Airbnb,0.625978090766823,12,Female,Minorities ,Supportive workers
+Apple,0.535029536739559,413,Male,Hispanic_or_Latino,Executive and manager
+Apple,5.15079282827236,3976,Male,White,Executive and manager
+Apple,0.225411959788579,174,Male,Black_or_African_American,Executive and manager
+Apple,1.81236397554151,1399,Male,Asian,Executive and manager
+Apple,0.103637682661416,80,Male,Minorities ,Executive and manager
+Apple,0.193025183956887,149,Female,Hispanic_or_Latino,Executive and manager
+Apple,1.88620582443777,1456,Female,White,Executive and manager
+Apple,0.15157011089232,117,Female,Black_or_African_American,Executive and manager
+Apple,0.652917400766919,504,Female,Asian,Executive and manager
+Apple,0.0570007254637786,44,Female,Minorities ,Executive and manager
+Apple,1.03508135558089,799,Male,Hispanic_or_Latino,Professionals
+Apple,11.6747849518085,9012,Male,White,Professionals
+Apple,0.353663592082081,273,Male,Black_or_African_American,Professionals
+Apple,9.03202404394238,6972,Male,Asian,Professionals
+Apple,0.307026634884444,237,Male,Minorities ,Professionals
+Apple,0.49486993470826,382,Female,Hispanic_or_Latino,Professionals
+Apple,3.41356617266038,2635,Female,White,Professionals
+Apple,0.164524821224997,127,Female,Black_or_African_American,Professionals
+Apple,3.43299823815939,2650,Female,Asian,Professionals
+Apple,0.14638822675925,113,Female,Minorities ,Professionals
+Apple,6.59135661726604,5088,Male,Hispanic_or_Latino,Supportive workers
+Apple,23.4907762462431,18133,Male,White,Supportive workers
+Apple,4.7362420976267,3656,Male,Black_or_African_American,Supportive workers
+Apple,2.78526272152555,2150,Male,Asian,Supportive workers
+Apple,1.41724531039486,1094,Male,Minorities ,Supportive workers
+Apple,3.42004352782672,2640,Female,Hispanic_or_Latino,Supportive workers
+Apple,10.5140429060006,8116,Female,White,Supportive workers
+Apple,3.52368121048813,2720,Female,Black_or_African_American,Supportive workers
+Apple,1.76572701834387,1363,Female,Asian,Supportive workers
+Apple,0.932739143952741,720,Female,Minorities ,Supportive workers
+Cisco,0.490326706816607,184,Male,Hispanic_or_Latino,Executive and manager
+Cisco,7.85322176624207,2947,Male,White,Executive and manager
+Cisco,0.237168896231946,89,Male,Black_or_African_American,Executive and manager
+Cisco,3.49624260512711,1312,Male,Asian,Executive and manager
+Cisco,0.111922400469008,42,Male,Minorities ,Executive and manager
+Cisco,0.247828172467089,93,Female,Hispanic_or_Latino,Executive and manager
+Cisco,2.19048126632202,822,Female,White,Executive and manager
+Cisco,0.111922400469008,42,Female,Black_or_African_American,Executive and manager
+Cisco,0.983318232692,369,Female,Asian,Executive and manager
+Cisco,0.0426371049405745,16,Female,Minorities ,Executive and manager
+Cisco,2.39300751478975,898,Male,Hispanic_or_Latino,Professionals
+Cisco,26.0192932899856,9764,Male,White,Professionals
+Cisco,1.63619890209455,614,Male,Black_or_African_American,Professionals
+Cisco,21.870170015456,8207,Male,Asian,Professionals
+Cisco,0.655545488461333,246,Male,Minorities ,Professionals
+Cisco,0.93801630869264,352,Female,Hispanic_or_Latino,Professionals
+Cisco,7.6400362415392,2867,Female,White,Professionals
+Cisco,0.927357032457496,348,Female,Black_or_African_American,Professionals
+Cisco,8.69796940787721,3264,Female,Asian,Professionals
+Cisco,0.269146724937377,101,Female,Minorities ,Professionals
+Cisco,0.551617545168683,207,Male,Hispanic_or_Latino,Supportive workers
+Cisco,7.43750999307147,2791,Male,White,Supportive workers
+Cisco,0.322443106113095,121,Male,Black_or_African_American,Supportive workers
+Cisco,0.540958268933539,203,Male,Asian,Supportive workers
+Cisco,0.149229867292011,56,Male,Minorities ,Supportive workers
+Cisco,0.477002611522678,179,Female,Hispanic_or_Latino,Supportive workers
+Cisco,3.07253637478015,1153,Female,White,Supportive workers
+Cisco,0.183872515056228,69,Female,Black_or_African_American,Supportive workers
+Cisco,0.362415391994884,136,Female,Asian,Supportive workers
+Cisco,0.0906038479987209,34,Female,Minorities ,Supportive workers
+eBay,0.529420662532143,35,Male,Hispanic_or_Latino,Executive and manager
+eBay,9.3934351837846,621,Male,White,Executive and manager
+eBay,0.242020874300408,16,Male,Black_or_African_American,Executive and manager
+eBay,4.87067009529572,322,Male,Asian,Executive and manager
+eBay,0.166389351081531,11,Male,Minorities ,Executive and manager
+eBay,0.302526092875511,20,Female,Hispanic_or_Latino,Executive and manager
+eBay,5.7479957646347,380,Female,White,Executive and manager
+eBay,0.257147178944184,17,Female,Black_or_African_American,Executive and manager
+eBay,2.88912418696113,191,Female,Asian,Executive and manager
+eBay,0.166389351081531,11,Female,Minorities ,Executive and manager
+eBay,0.695810013613674,46,Male,Hispanic_or_Latino,Professionals
+eBay,14.1733474512177,937,Male,White,Professionals
+eBay,0.302526092875511,20,Male,Black_or_African_American,Professionals
+eBay,21.0709423687793,1393,Male,Asian,Professionals
+eBay,0.332778702163062,22,Male,Minorities ,Professionals
+eBay,0.635304795038572,42,Female,Hispanic_or_Latino,Professionals
+eBay,5.30933292996521,351,Female,White,Professionals
+eBay,0.121010437150204,8,Female,Black_or_African_American,Professionals
+eBay,8.93964604447134,591,Female,Asian,Professionals
+eBay,0.181515655725306,12,Female,Minorities ,Professionals
+eBay,1.10422023899561,73,Male,Hispanic_or_Latino,Supportive workers
+eBay,9.52957192557858,630,Male,White,Supportive workers
+eBay,0.605052185751021,40,Male,Black_or_African_American,Supportive workers
+eBay,0.907578278626532,60,Male,Asian,Supportive workers
+eBay,0.181515655725306,12,Male,Minorities ,Supportive workers
+eBay,1.01346241113296,67,Female,Hispanic_or_Latino,Supportive workers
+eBay,8.57661473302072,567,Female,White,Supportive workers
+eBay,0.650431099682348,43,Female,Black_or_African_American,Supportive workers
+eBay,0.71093631825745,47,Female,Asian,Supportive workers
+eBay,0.393283920738164,26,Female,Minorities ,Supportive workers
+Facebook,0.435904278978739,49,Male,Hispanic_or_Latino,Executive and manager
+Facebook,8.43341339738457,948,Male,White,Executive and manager
+Facebook,0.275776176496753,31,Male,Black_or_African_American,Executive and manager
+Facebook,3.53171426029713,397,Male,Asian,Executive and manager
+Facebook,0.427008273285295,48,Male,Minorities ,Executive and manager
+Facebook,0.231296148029535,26,Female,Hispanic_or_Latino,Executive and manager
+Facebook,3.4249621919758,385,Female,White,Executive and manager
+Facebook,0.133440085401655,15,Female,Black_or_African_American,Executive and manager
+Facebook,1.66355306467396,187,Female,Asian,Executive and manager
+Facebook,0.222400142336091,25,Female,Minorities ,Executive and manager
+Facebook,1.85926518992972,209,Male,Hispanic_or_Latino,Professionals
+Facebook,25.1756961124455,2830,Male,White,Professionals
+Facebook,0.898496575037808,101,Male,Black_or_African_American,Professionals
+Facebook,21.7062538920025,2440,Male,Asian,Professionals
+Facebook,1.3255048483231,149,Male,Minorities ,Professionals
+Facebook,1.183168757228,133,Female,Hispanic_or_Latino,Professionals
+Facebook,8.7447735966551,983,Female,White,Professionals
+Facebook,0.622720398541055,70,Female,Black_or_African_American,Professionals
+Facebook,9.89235833110933,1112,Female,Asian,Professionals
+Facebook,0.747264478249266,84,Female,Minorities ,Professionals
+Facebook,0.29356818788364,33,Male,Hispanic_or_Latino,Supportive workers
+Facebook,3.01574593007739,339,Male,White,Supportive workers
+Facebook,0.177920113868873,20,Male,Black_or_African_American,Supportive workers
+Facebook,0.622720398541055,70,Male,Asian,Supportive workers
+Facebook,0.106752068321324,12,Male,Minorities ,Supportive workers
+Facebook,0.471488301752513,53,Female,Hispanic_or_Latino,Supportive workers
+Facebook,2.97126590161018,334,Female,White,Supportive workers
+Facebook,0.19571212525576,22,Female,Black_or_African_American,Supportive workers
+Facebook,0.898496575037808,101,Female,Asian,Supportive workers
+Facebook,0.311360199270528,35,Female,Minorities ,Supportive workers
+Google,0.727117194183062,340,Male,Hispanic_or_Latino,Executive and manager
+Google,9.54662104362703,4464,Male,White,Executive and manager
+Google,0.284431137724551,133,Male,Black_or_African_American,Executive and manager
+Google,3.72968349016253,1744,Male,Asian,Executive and manager
+Google,0.243798118049615,114,Male,Minorities ,Executive and manager
+Google,0.421300256629598,197,Female,Hispanic_or_Latino,Executive and manager
+Google,5.06629597946963,2369,Female,White,Executive and manager
+Google,0.260906757912746,122,Female,Black_or_African_American,Executive and manager
+Google,2.54277159965783,1189,Female,Asian,Executive and manager
+Google,0.196749358426005,92,Female,Minorities ,Executive and manager
+Google,2.36740804106074,1107,Male,Hispanic_or_Latino,Professionals
+Google,29.6899059024808,13883,Male,White,Professionals
+Google,0.840461933276304,393,Male,Black_or_African_American,Professionals
+Google,18.4388366124893,8622,Male,Asian,Professionals
+Google,0.92814371257485,434,Male,Minorities ,Professionals
+Google,0.804106073567151,376,Female,Hispanic_or_Latino,Professionals
+Google,7.06159110350727,3302,Female,White,Professionals
+Google,0.479041916167665,224,Female,Black_or_African_American,Professionals
+Google,7.50427715996578,3509,Female,Asian,Professionals
+Google,0.517536355859709,242,Female,Minorities ,Professionals
+Google,0.399914456800684,187,Male,Hispanic_or_Latino,Supportive workers
+Google,2.73310521813516,1278,Male,White,Supportive workers
+Google,0.265183917878529,124,Male,Black_or_African_American,Supportive workers
+Google,0.508982035928144,238,Male,Asian,Supportive workers
+Google,0.12617621899059,59,Male,Minorities ,Supportive workers
+Google,0.434131736526946,203,Female,Hispanic_or_Latino,Supportive workers
+Google,2.76090675791275,1291,Female,White,Supportive workers
+Google,0.222412318220701,104,Female,Black_or_African_American,Supportive workers
+Google,0.739948674080411,346,Female,Asian,Supportive workers
+Google,0.158254918733961,74,Female,Minorities ,Supportive workers
+HP Inc.,0.896202159700286,122,Male,Hispanic_or_Latino,Executive and manager
+HP Inc.,8.93263791963564,1216,Male,White,Executive and manager
+HP Inc.,0.198339822228752,27,Male,Black_or_African_American,Executive and manager
+HP Inc.,1.23411444942335,168,Male,Asian,Executive and manager
+HP Inc.,0.102842870785279,14,Male,Minorities ,Executive and manager
+HP Inc.,0.345258209064864,47,Female,Hispanic_or_Latino,Executive and manager
+HP Inc.,3.45992800999045,471,Female,White,Executive and manager
+HP Inc.,0.132226548152501,18,Female,Black_or_African_American,Executive and manager
+HP Inc.,0.506868434584588,69,Female,Asian,Executive and manager
+HP Inc.,0.0514214353926394,7,Female,Minorities ,Executive and manager
+HP Inc.,2.10093293175641,286,Male,Hispanic_or_Latino,Professionals
+HP Inc.,26.570190259311,3617,Male,White,Professionals
+HP Inc.,0.881510321016675,120,Male,Black_or_African_American,Professionals
+HP Inc.,5.41394255491075,737,Male,Asian,Professionals
+HP Inc.,0.646440902078895,88,Male,Minorities ,Professionals
+HP Inc.,1.38837875560126,189,Female,Hispanic_or_Latino,Professionals
+HP Inc.,12.2309557041064,1665,Female,White,Professionals
+HP Inc.,0.837434804965841,114,Female,Black_or_African_American,Professionals
+HP Inc.,3.24689634907809,442,Female,Asian,Professionals
+HP Inc.,0.271799015646808,37,Female,Minorities ,Professionals
+HP Inc.,2.3506941893778,320,Male,Hispanic_or_Latino,Supportive workers
+HP Inc.,16.403437890252,2233,Male,White,Supportive workers
+HP Inc.,1.38103283625946,188,Male,Black_or_African_American,Supportive workers
+HP Inc.,1.24146036876515,169,Male,Asian,Supportive workers
+HP Inc.,0.646440902078895,88,Male,Minorities ,Supportive workers
+HP Inc.,0.903548079042092,123,Female,Hispanic_or_Latino,Supportive workers
+HP Inc.,6.34687431132006,864,Female,White,Supportive workers
+HP Inc.,0.381987805773893,52,Female,Black_or_African_American,Supportive workers
+HP Inc.,0.631749063395284,86,Female,Asian,Supportive workers
+HP Inc.,0.264453096305003,36,Female,Minorities ,Supportive workers
+HPE,0.340456635057416,177,Male,Hispanic_or_Latino,Executive and manager
+HPE,7.35540210429129,3824,Male,White,Executive and manager
+HPE,0.27505818538537,143,Male,Black_or_African_American,Executive and manager
+HPE,0.940583584989132,489,Male,Asian,Executive and manager
+HPE,0.0884802554386505,46,Male,Minorities ,Executive and manager
+HPE,0.157725672738464,82,Female,Hispanic_or_Latino,Executive and manager
+HPE,2.80636288445633,1459,Female,White,Executive and manager
+HPE,0.226971090038277,118,Female,Black_or_African_American,Executive and manager
+HPE,0.334686183615765,174,Female,Asian,Executive and manager
+HPE,0.0519340629748601,27,Female,Minorities ,Executive and manager
+HPE,2.67748946892612,1392,Male,Hispanic_or_Latino,Professionals
+HPE,31.4528073246264,16352,Male,White,Professionals
+HPE,2.36396160726307,1229,Male,Black_or_African_American,Professionals
+HPE,6.79182134682337,3531,Male,Asian,Professionals
+HPE,0.665525399603762,346,Male,Minorities ,Professionals
+HPE,1.19063648079401,619,Female,Hispanic_or_Latino,Professionals
+HPE,15.1358941314509,7869,Female,White,Professionals
+HPE,1.80999826886457,941,Female,Black_or_African_American,Professionals
+HPE,3.19683009867472,1662,Female,Asian,Professionals
+HPE,0.350074054126835,182,Female,Minorities ,Professionals
+HPE,0.796322298947854,414,Male,Hispanic_or_Latino,Supportive workers
+HPE,10.6426359422185,5533,Male,White,Supportive workers
+HPE,1.17909557791071,613,Male,Black_or_African_American,Supportive workers
+HPE,1.04829867856662,545,Male,Asian,Supportive workers
+HPE,0.307757410221393,160,Male,Minorities ,Supportive workers
+HPE,0.582815595606763,303,Female,Hispanic_or_Latino,Supportive workers
+HPE,5.25880474715805,2734,Female,White,Supportive workers
+HPE,1.32720383157976,690,Female,Black_or_African_American,Supportive workers
+HPE,0.448171728634904,233,Female,Asian,Supportive workers
+HPE,0.196195349016138,102,Female,Minorities ,Supportive workers
+Intel,0.596656506880946,323,Male,Hispanic_or_Latino,Executive and manager
+Intel,5.99796804285582,3247,Male,White,Executive and manager
+Intel,0.266001662510391,144,Male,Black_or_African_American,Executive and manager
+Intel,2.71728087189434,1471,Male,Asian,Executive and manager
+Intel,0.158862103999261,86,Male,Minorities ,Executive and manager
+Intel,0.199501246882793,108,Female,Hispanic_or_Latino,Executive and manager
+Intel,1.7659554816662,956,Female,White,Executive and manager
+Intel,0.0942089221390967,51,Female,Black_or_African_American,Executive and manager
+Intel,0.744435208275607,403,Female,Asian,Executive and manager
+Intel,0.0554170130229981,30,Female,Minorities ,Executive and manager
+Intel,3.05532465133463,1654,Male,Hispanic_or_Latino,Professionals
+Intel,22.8170314953357,12352,Male,White,Professionals
+Intel,1.64588528678304,891,Male,Black_or_African_American,Professionals
+Intel,20.3047935716265,10992,Male,Asian,Professionals
+Intel,0.748129675810474,405,Male,Minorities ,Professionals
+Intel,1.15082663711093,623,Female,Hispanic_or_Latino,Professionals
+Intel,6.53181860164404,3536,Female,White,Professionals
+Intel,0.657615221206244,356,Female,Black_or_African_American,Professionals
+Intel,9.23247436963148,4998,Female,Asian,Professionals
+Intel,0.652073519903944,353,Female,Minorities ,Professionals
+Intel,2.30350050798929,1247,Male,Hispanic_or_Latino,Supportive workers
+Intel,9.91225639604692,5366,Male,White,Supportive workers
+Intel,0.993811766879099,538,Male,Black_or_African_American,Supportive workers
+Intel,1.9765401311536,1070,Male,Asian,Supportive workers
+Intel,0.550475662695114,298,Male,Minorities ,Supportive workers
+Intel,0.75182414334534,407,Female,Hispanic_or_Latino,Supportive workers
+Intel,2.70435023552231,1464,Female,White,Supportive workers
+Intel,0.236445922231458,128,Female,Black_or_African_American,Supportive workers
+Intel,0.9494781564607,514,Female,Asian,Supportive workers
+Intel,0.229056987161725,124,Female,Minorities ,Supportive workers
+Intuit,0.558281170698697,33,Male,Hispanic_or_Latino,Executive and manager
+Intuit,6.90238538318389,408,Male,White,Executive and manager
+Intuit,0.203011334799526,12,Male,Black_or_African_American,Executive and manager
+Intuit,2.36846557266114,140,Male,Asian,Executive and manager
+Intuit,0.253764168499408,15,Male,Minorities ,Executive and manager
+Intuit,0.304517002199289,18,Female,Hispanic_or_Latino,Executive and manager
+Intuit,4.87227203518863,288,Female,White,Executive and manager
+Intuit,0.287599390965996,17,Female,Black_or_African_American,Executive and manager
+Intuit,1.47183217729657,87,Female,Asian,Executive and manager
+Intuit,0.169176112332939,10,Female,Minorities ,Executive and manager
+Intuit,2.18237184909491,129,Male,Hispanic_or_Latino,Professionals
+Intuit,17.2390458467264,1019,Male,White,Professionals
+Intuit,0.659786838098461,39,Male,Black_or_African_American,Professionals
+Intuit,13.872441211301,820,Male,Asian,Professionals
+Intuit,0.879715784131281,52,Male,Minorities ,Professionals
+Intuit,1.0996447301641,65,Female,Hispanic_or_Latino,Professionals
+Intuit,9.65995601421079,571,Female,White,Professionals
+Intuit,0.52444594823211,31,Female,Black_or_African_American,Professionals
+Intuit,9.00016917611233,532,Female,Asian,Professionals
+Intuit,0.710539671798342,42,Female,Minorities ,Professionals
+Intuit,1.99627812552868,118,Male,Hispanic_or_Latino,Supportive workers
+Intuit,7.10539671798342,420,Male,White,Supportive workers
+Intuit,0.96430384029775,57,Male,Black_or_African_American,Supportive workers
+Intuit,1.40416173236339,83,Male,Asian,Supportive workers
+Intuit,0.473693114532228,28,Male,Minorities ,Supportive workers
+Intuit,2.25004229402808,133,Female,Hispanic_or_Latino,Supportive workers
+Intuit,8.42497039418034,498,Female,White,Supportive workers
+Intuit,1.35340889866351,80,Female,Black_or_African_American,Supportive workers
+Intuit,1.84401962442903,109,Female,Asian,Supportive workers
+Intuit,0.96430384029775,57,Female,Minorities ,Supportive workers
+Linkedin,0.2854996243426,19,Male,Hispanic_or_Latino,Executive and manager
+Linkedin,6.16078136739294,410,Male,White,Executive and manager
+Linkedin,0.135236664162284,9,Male,Black_or_African_American,Executive and manager
+Linkedin,4.10217881292261,273,Male,Asian,Executive and manager
+Linkedin,0.2854996243426,19,Male,Minorities ,Executive and manager
+Linkedin,0.360631104432757,24,Female,Hispanic_or_Latino,Executive and manager
+Linkedin,3.74154770848986,249,Female,White,Executive and manager
+Linkedin,0.135236664162284,9,Female,Black_or_African_American,Executive and manager
+Linkedin,1.93839218632607,129,Female,Asian,Executive and manager
+Linkedin,0.19534184823441,13,Female,Minorities ,Executive and manager
+Linkedin,1.77310293012772,118,Male,Hispanic_or_Latino,Professionals
+Linkedin,16.8595041322314,1122,Male,White,Professionals
+Linkedin,0.781367392937641,52,Male,Black_or_African_American,Professionals
+Linkedin,18.8880540946657,1257,Male,Asian,Professionals
+Linkedin,0.826446280991736,55,Male,Minorities ,Professionals
+Linkedin,1.36739293764087,91,Female,Hispanic_or_Latino,Professionals
+Linkedin,10.7588279489106,716,Female,White,Professionals
+Linkedin,0.510894064613073,34,Female,Black_or_African_American,Professionals
+Linkedin,10.1126972201352,673,Female,Asian,Professionals
+Linkedin,0.555972952667168,37,Female,Minorities ,Professionals
+Linkedin,0.48084147257701,32,Male,Hispanic_or_Latino,Supportive workers
+Linkedin,7.54320060105184,502,Male,White,Supportive workers
+Linkedin,0.570999248685199,38,Male,Black_or_African_American,Supportive workers
+Linkedin,0.736288504883546,49,Male,Asian,Supportive workers
+Linkedin,0.345604808414726,23,Male,Minorities ,Supportive workers
+Linkedin,0.48084147257701,32,Female,Hispanic_or_Latino,Supportive workers
+Linkedin,8.44477836213373,562,Female,White,Supportive workers
+Linkedin,0.405709992486852,27,Female,Black_or_African_American,Supportive workers
+Linkedin,0.96168294515402,64,Female,Asian,Supportive workers
+Linkedin,0.255447032306536,17,Female,Minorities ,Supportive workers
+Lyft,0.558269364968597,8,Male,Hispanic_or_Latino,Executive and manager
+Lyft,9.00209351011863,129,Male,White,Executive and manager
+Lyft,0.279134682484299,4,Male,Black_or_African_American,Executive and manager
+Lyft,2.02372644801117,29,Male,Asian,Executive and manager
+Lyft,0.348918353105373,5,Male,Minorities ,Executive and manager
+Lyft,0.279134682484299,4,Female,Hispanic_or_Latino,Executive and manager
+Lyft,5.30355896720167,76,Female,White,Executive and manager
+Lyft,0,0,Female,Black_or_African_American,Executive and manager
+Lyft,0.907187718073971,13,Female,Asian,Executive and manager
+Lyft,0.418702023726448,6,Female,Minorities ,Executive and manager
+Lyft,2.09351011863224,30,Male,Hispanic_or_Latino,Professionals
+Lyft,16.3991625959525,235,Male,White,Professionals
+Lyft,0.976971388695045,14,Male,Black_or_African_American,Professionals
+Lyft,9.14166085136078,131,Male,Asian,Professionals
+Lyft,1.11653872993719,16,Male,Minorities ,Professionals
+Lyft,1.32588974180042,19,Female,Hispanic_or_Latino,Professionals
+Lyft,10.8862526168876,156,Female,White,Professionals
+Lyft,0.697836706210747,10,Female,Black_or_African_American,Professionals
+Lyft,4.46615491974878,64,Female,Asian,Professionals
+Lyft,0.558269364968597,8,Female,Minorities ,Professionals
+Lyft,1.25610607117934,18,Male,Hispanic_or_Latino,Supportive workers
+Lyft,11.0956036287509,159,Male,White,Supportive workers
+Lyft,1.67480809490579,24,Male,Black_or_African_American,Supportive workers
+Lyft,0.976971388695045,14,Male,Asian,Supportive workers
+Lyft,0.558269364968597,8,Male,Minorities ,Supportive workers
+Lyft,1.53524075366364,22,Female,Hispanic_or_Latino,Supportive workers
+Lyft,11.3747383112352,163,Female,White,Supportive workers
+Lyft,3.07048150732729,44,Female,Black_or_African_American,Supportive workers
+Lyft,0.907187718073971,13,Female,Asian,Supportive workers
+Lyft,0.767620376831821,11,Female,Minorities ,Supportive workers
+MobileIron,1.38339920948617,7,Male,Hispanic_or_Latino,Executive and manager
+MobileIron,8.10276679841897,41,Male,White,Executive and manager
+MobileIron,0,0,Male,Black_or_African_American,Executive and manager
+MobileIron,3.95256916996047,20,Male,Asian,Executive and manager
+MobileIron,0.592885375494071,3,Male,Minorities ,Executive and manager
+MobileIron,0,0,Female,Hispanic_or_Latino,Executive and manager
+MobileIron,1.38339920948617,7,Female,White,Executive and manager
+MobileIron,0,0,Female,Black_or_African_American,Executive and manager
+MobileIron,1.97628458498024,10,Female,Asian,Executive and manager
+MobileIron,0.197628458498024,1,Female,Minorities ,Executive and manager
+MobileIron,1.58102766798419,8,Male,Hispanic_or_Latino,Professionals
+MobileIron,21.1462450592885,107,Male,White,Professionals
+MobileIron,0.988142292490119,5,Male,Black_or_African_American,Professionals
+MobileIron,15.8102766798419,80,Male,Asian,Professionals
+MobileIron,0.197628458498024,1,Male,Minorities ,Professionals
+MobileIron,0.988142292490119,5,Female,Hispanic_or_Latino,Professionals
+MobileIron,7.31225296442688,37,Female,White,Professionals
+MobileIron,0.592885375494071,3,Female,Black_or_African_American,Professionals
+MobileIron,14.0316205533597,71,Female,Asian,Professionals
+MobileIron,0.395256916996047,2,Female,Minorities ,Professionals
+MobileIron,1.18577075098814,6,Male,Hispanic_or_Latino,Supportive workers
+MobileIron,12.2529644268775,62,Male,White,Supportive workers
+MobileIron,0,0,Male,Black_or_African_American,Supportive workers
+MobileIron,1.38339920948617,7,Male,Asian,Supportive workers
+MobileIron,0.592885375494071,3,Male,Minorities ,Supportive workers
+MobileIron,0.592885375494071,3,Female,Hispanic_or_Latino,Supportive workers
+MobileIron,2.17391304347826,11,Female,White,Supportive workers
+MobileIron,0.197628458498024,1,Female,Black_or_African_American,Supportive workers
+MobileIron,0.592885375494071,3,Female,Asian,Supportive workers
+MobileIron,0.395256916996047,2,Female,Minorities ,Supportive workers
+NetApp,0.545678577715191,31,Male,Hispanic_or_Latino,Executive and manager
+NetApp,9.52297130786833,541,Male,White,Executive and manager
+NetApp,0.264038021475092,15,Male,Black_or_African_American,Executive and manager
+NetApp,2.95722584052104,168,Male,Asian,Executive and manager
+NetApp,0.193627882415068,11,Male,Minorities ,Executive and manager
+NetApp,0.211230417180074,12,Female,Hispanic_or_Latino,Executive and manager
+NetApp,3.04523851434607,173,Female,White,Executive and manager
+NetApp,0.176025347650062,10,Female,Black_or_African_American,Executive and manager
+NetApp,1.32019010737546,75,Female,Asian,Executive and manager
+NetApp,0.0528076042950185,3,Female,Minorities ,Executive and manager
+NetApp,1.83066361556064,104,Male,Hispanic_or_Latino,Professionals
+NetApp,31.8957929941912,1812,Male,White,Professionals
+NetApp,1.56662559408555,89,Male,Black_or_African_American,Professionals
+NetApp,15.1029748283753,858,Male,Asian,Professionals
+NetApp,0.862524203485302,49,Male,Minorities ,Professionals
+NetApp,1.02094701637036,58,Female,Hispanic_or_Latino,Professionals
+NetApp,7.93874317901778,451,Female,White,Professionals
+NetApp,0.774511529660271,44,Female,Black_or_African_American,Professionals
+NetApp,6.98820630170745,397,Female,Asian,Professionals
+NetApp,0.352050695300123,20,Female,Minorities ,Professionals
+NetApp,0.387255764830136,22,Male,Hispanic_or_Latino,Supportive workers
+NetApp,9.57577891216335,544,Male,White,Supportive workers
+NetApp,0.281640556240099,16,Male,Black_or_African_American,Supportive workers
+NetApp,0.862524203485302,49,Male,Asian,Supportive workers
+NetApp,0.140820278120049,8,Male,Minorities ,Supportive workers
+NetApp,0.0704101390600246,4,Female,Hispanic_or_Latino,Supportive workers
+NetApp,1.68984333744059,96,Female,White,Supportive workers
+NetApp,0.123217743355043,7,Female,Black_or_African_American,Supportive workers
+NetApp,0.22883295194508,13,Female,Asian,Supportive workers
+NetApp,0.0176025347650062,1,Female,Minorities ,Supportive workers
+Nvidia,0.542258788332087,29,Male,Hispanic_or_Latino,Executive and manager
+Nvidia,9.3866866118175,502,Male,White,Executive and manager
+Nvidia,0.168287210172027,9,Male,Black_or_African_American,Executive and manager
+Nvidia,7.06806282722513,378,Male,Asian,Executive and manager
+Nvidia,0.093492894540015,5,Male,Minorities ,Executive and manager
+Nvidia,0.168287210172027,9,Female,Hispanic_or_Latino,Executive and manager
+Nvidia,1.38369483919222,74,Female,White,Executive and manager
+Nvidia,0.056095736724009,3,Female,Black_or_African_American,Executive and manager
+Nvidia,1.81376215407629,97,Female,Asian,Executive and manager
+Nvidia,0,0,Female,Minorities ,Executive and manager
+Nvidia,1.73896783844428,93,Male,Hispanic_or_Latino,Professionals
+Nvidia,28.0852655198205,1502,Male,White,Professionals
+Nvidia,0.504861630516081,27,Male,Black_or_African_American,Professionals
+Nvidia,32.5542258788332,1741,Male,Asian,Professionals
+Nvidia,0.411368735976066,22,Male,Minorities ,Professionals
+Nvidia,0.37397157816006,20,Female,Hispanic_or_Latino,Professionals
+Nvidia,3.01047120418848,161,Female,White,Professionals
+Nvidia,0.18698578908003,10,Female,Black_or_African_American,Professionals
+Nvidia,8.7696335078534,469,Female,Asian,Professionals
+Nvidia,0.112191473448018,6,Female,Minorities ,Professionals
+Nvidia,0.261780104712042,14,Male,Hispanic_or_Latino,Supportive workers
+Nvidia,0.579655946148093,31,Male,White,Supportive workers
+Nvidia,0.018698578908003,1,Male,Black_or_African_American,Supportive workers
+Nvidia,1.38369483919222,74,Male,Asian,Supportive workers
+Nvidia,0.018698578908003,1,Male,Minorities ,Supportive workers
+Nvidia,0.299177262528048,16,Female,Hispanic_or_Latino,Supportive workers
+Nvidia,0.448765893792072,24,Female,White,Supportive workers
+Nvidia,0.037397157816006,2,Female,Black_or_African_American,Supportive workers
+Nvidia,0.467464472700075,25,Female,Asian,Supportive workers
+Nvidia,0.056095736724009,3,Female,Minorities ,Supportive workers
+PayPal,0.469345849222646,48,Male,Hispanic_or_Latino,Executive and manager
+PayPal,7.07929989244158,724,Male,White,Executive and manager
+PayPal,0.283563117238682,29,Male,Black_or_African_American,Executive and manager
+PayPal,3.01163586584531,308,Male,Asian,Executive and manager
+PayPal,0.185782731983964,19,Male,Minorities ,Executive and manager
+PayPal,0.342231348391513,35,Female,Hispanic_or_Latino,Executive and manager
+PayPal,4.73257064632835,484,Female,White,Executive and manager
+PayPal,0.293341155764154,30,Female,Black_or_African_American,Executive and manager
+PayPal,2.16094651412927,221,Female,Asian,Executive and manager
+PayPal,0.0782243082037743,8,Female,Minorities ,Executive and manager
+PayPal,1.0755842378019,110,Male,Hispanic_or_Latino,Professionals
+PayPal,12.9656790847756,1326,Male,White,Professionals
+PayPal,0.870245428766989,89,Male,Black_or_African_American,Professionals
+PayPal,13.9728170528992,1429,Male,Asian,Professionals
+PayPal,0.244450963136795,25,Male,Minorities ,Professionals
+PayPal,0.645350542681138,66,Female,Hispanic_or_Latino,Professionals
+PayPal,5.9254913464359,606,Female,White,Professionals
+PayPal,0.469345849222646,48,Female,Black_or_African_American,Professionals
+PayPal,6.87396108340667,703,Female,Asian,Professionals
+PayPal,0.146670577882077,15,Female,Minorities ,Professionals
+PayPal,1.87738339689058,192,Male,Hispanic_or_Latino,Supportive workers
+PayPal,11.7434242690916,1201,Male,White,Supportive workers
+PayPal,2.02405397477266,207,Male,Black_or_African_American,Supportive workers
+PayPal,0.909357582868876,93,Male,Asian,Supportive workers
+PayPal,0.391121541018872,40,Male,Minorities ,Supportive workers
+PayPal,1.98494182067077,203,Female,Hispanic_or_Latino,Supportive workers
+PayPal,13.3568006257945,1366,Female,White,Supportive workers
+PayPal,4.44900752908966,455,Female,Black_or_African_American,Supportive workers
+PayPal,0.860467390241518,88,Female,Asian,Supportive workers
+PayPal,0.576904273002836,59,Female,Minorities ,Supportive workers
+Pinterest,0.211864406779661,2,Male,Hispanic_or_Latino,Executive and manager
+Pinterest,1.3771186440678,13,Male,White,Executive and manager
+Pinterest,0.105932203389831,1,Male,Black_or_African_American,Executive and manager
+Pinterest,1.27118644067797,12,Male,Asian,Executive and manager
+Pinterest,0.211864406779661,2,Male,Minorities ,Executive and manager
+Pinterest,0,0,Female,Hispanic_or_Latino,Executive and manager
+Pinterest,0.953389830508475,9,Female,White,Executive and manager
+Pinterest,0.105932203389831,1,Female,Black_or_African_American,Executive and manager
+Pinterest,0.529661016949152,5,Female,Asian,Executive and manager
+Pinterest,0.317796610169492,3,Female,Minorities ,Executive and manager
+Pinterest,1.48305084745763,14,Male,Hispanic_or_Latino,Professionals
+Pinterest,20.8686440677966,197,Male,White,Professionals
+Pinterest,1.0593220338983,10,Male,Black_or_African_American,Professionals
+Pinterest,22.8813559322034,216,Male,Asian,Professionals
+Pinterest,2.22457627118644,21,Male,Minorities ,Professionals
+Pinterest,1.48305084745763,14,Female,Hispanic_or_Latino,Professionals
+Pinterest,16.8432203389831,159,Female,White,Professionals
+Pinterest,0.741525423728814,7,Female,Black_or_African_American,Professionals
+Pinterest,13.0296610169492,123,Female,Asian,Professionals
+Pinterest,1.3771186440678,13,Female,Minorities ,Professionals
+Pinterest,0.317796610169492,3,Male,Hispanic_or_Latino,Supportive workers
+Pinterest,3.8135593220339,36,Male,White,Supportive workers
+Pinterest,0.105932203389831,1,Male,Black_or_African_American,Supportive workers
+Pinterest,0.847457627118644,8,Male,Asian,Supportive workers
+Pinterest,0.105932203389831,1,Male,Minorities ,Supportive workers
+Pinterest,0.211864406779661,2,Female,Hispanic_or_Latino,Supportive workers
+Pinterest,6.35593220338983,60,Female,White,Supportive workers
+Pinterest,0,0,Female,Black_or_African_American,Supportive workers
+Pinterest,1.0593220338983,10,Female,Asian,Supportive workers
+Pinterest,0.105932203389831,1,Female,Minorities ,Supportive workers
+Salesforce,0.428105463441152,63,Male,Hispanic_or_Latino,Executive and manager
+Salesforce,9.95515085621093,1465,Male,White,Executive and manager
+Salesforce,0.224245718945366,33,Male,Black_or_African_American,Executive and manager
+Salesforce,2.52106550693123,371,Male,Asian,Executive and manager
+Salesforce,0.285403642294102,42,Male,Minorities ,Executive and manager
+Salesforce,0.203859744495787,30,Female,Hispanic_or_Latino,Executive and manager
+Salesforce,4.07039956509921,599,Female,White,Executive and manager
+Salesforce,0.10872519706442,16,Female,Black_or_African_American,Executive and manager
+Salesforce,1.30470236477304,192,Female,Asian,Executive and manager
+Salesforce,0.190269094862734,28,Female,Minorities ,Executive and manager
+Salesforce,1.42701821147051,210,Male,Hispanic_or_Latino,Professionals
+Salesforce,21.7382440880674,3199,Male,White,Professionals
+Salesforce,0.8290296276162,122,Male,Black_or_African_American,Professionals
+Salesforce,12.5985322098396,1854,Male,Asian,Professionals
+Salesforce,0.930959499864093,137,Male,Minorities ,Professionals
+Salesforce,0.733895080184833,108,Female,Hispanic_or_Latino,Professionals
+Salesforce,9.9483555313944,1464,Female,White,Professionals
+Salesforce,0.455286762707257,67,Female,Black_or_African_American,Professionals
+Salesforce,5.95270453927698,876,Female,Asian,Professionals
+Salesforce,0.557216634955151,82,Female,Minorities ,Professionals
+Salesforce,0.713509105735254,105,Male,Hispanic_or_Latino,Supportive workers
+Salesforce,14.3313400380538,2109,Male,White,Supportive workers
+Salesforce,0.441696113074205,65,Male,Black_or_African_American,Supportive workers
+Salesforce,1.1144332699103,164,Male,Asian,Supportive workers
+Salesforce,0.543625985322098,80,Male,Minorities ,Supportive workers
+Salesforce,0.441696113074205,65,Female,Hispanic_or_Latino,Supportive workers
+Salesforce,6.51671649904865,959,Female,White,Supportive workers
+Salesforce,0.285403642294102,42,Female,Black_or_African_American,Supportive workers
+Salesforce,0.815438977983147,120,Female,Asian,Supportive workers
+Salesforce,0.332970916009785,49,Female,Minorities ,Supportive workers
+Sanmina,1.09510086455331,57,Male,Hispanic_or_Latino,Executive and manager
+Sanmina,7.62728146013449,397,Male,White,Executive and manager
+Sanmina,0.134486071085495,7,Male,Black_or_African_American,Executive and manager
+Sanmina,1.32564841498559,69,Male,Asian,Executive and manager
+Sanmina,0.0768491834774256,4,Male,Minorities ,Executive and manager
+Sanmina,0.307396733909702,16,Female,Hispanic_or_Latino,Executive and manager
+Sanmina,2.51681075888569,131,Female,White,Executive and manager
+Sanmina,0.0960614793467819,5,Female,Black_or_African_American,Executive and manager
+Sanmina,0.499519692603266,26,Female,Asian,Executive and manager
+Sanmina,0.0192122958693564,1,Female,Minorities ,Executive and manager
+Sanmina,0.883765609990394,46,Male,Hispanic_or_Latino,Professionals
+Sanmina,10.240153698367,533,Male,White,Professionals
+Sanmina,0.557156580211335,29,Male,Black_or_African_American,Professionals
+Sanmina,2.49759846301633,130,Male,Asian,Professionals
+Sanmina,0.153698366954851,8,Male,Minorities ,Professionals
+Sanmina,0.557156580211335,29,Female,Hispanic_or_Latino,Professionals
+Sanmina,4.41882804995197,230,Female,White,Professionals
+Sanmina,0.403458213256484,21,Female,Black_or_African_American,Professionals
+Sanmina,1.92122958693564,100,Female,Asian,Professionals
+Sanmina,0.115273775216138,6,Female,Minorities ,Professionals
+Sanmina,5.91738712776177,308,Male,Hispanic_or_Latino,Supportive workers
+Sanmina,17.1181556195965,891,Male,White,Supportive workers
+Sanmina,2.65129682997118,138,Male,Black_or_African_American,Supportive workers
+Sanmina,10.2209414024976,532,Male,Asian,Supportive workers
+Sanmina,0.461095100864553,24,Male,Minorities ,Supportive workers
+Sanmina,2.63208453410182,137,Female,Hispanic_or_Latino,Supportive workers
+Sanmina,15.8885686839577,827,Female,White,Supportive workers
+Sanmina,2.45917387127762,128,Female,Black_or_African_American,Supportive workers
+Sanmina,6.95485110470701,362,Female,Asian,Supportive workers
+Sanmina,0.249759846301633,13,Female,Minorities ,Supportive workers
+Square,0.292226767971946,5,Male,Hispanic_or_Latino,Executive and manager
+Square,7.5978959672706,130,Male,White,Executive and manager
+Square,0.0584453535943892,1,Male,Black_or_African_American,Executive and manager
+Square,2.1624780829924,37,Male,Asian,Executive and manager
+Square,0.409117475160725,7,Male,Minorities ,Executive and manager
+Square,0.467562828755114,8,Female,Hispanic_or_Latino,Executive and manager
+Square,3.03915838690824,52,Female,White,Executive and manager
+Square,0.116890707188778,2,Female,Black_or_African_American,Executive and manager
+Square,1.22735242548217,21,Female,Asian,Executive and manager
+Square,0.233781414377557,4,Female,Minorities ,Executive and manager
+Square,1.16890707188778,20,Male,Hispanic_or_Latino,Professionals
+Square,24.7223845704267,423,Male,White,Professionals
+Square,0.642898889538282,11,Male,Black_or_African_American,Professionals
+Square,10.5201636469901,180,Male,Asian,Professionals
+Square,1.57802454704851,27,Male,Minorities ,Professionals
+Square,0.75978959672706,13,Female,Hispanic_or_Latino,Professionals
+Square,8.35768556399766,143,Female,White,Professionals
+Square,0.350672121566335,6,Female,Black_or_African_American,Professionals
+Square,6.25365283459965,107,Female,Asian,Professionals
+Square,0.701344243132671,12,Female,Minorities ,Professionals
+Square,1.87025131502046,32,Male,Hispanic_or_Latino,Supportive workers
+Square,8.88369374634717,152,Male,White,Supportive workers
+Square,2.1624780829924,37,Male,Black_or_African_American,Supportive workers
+Square,2.51315020455874,43,Male,Asian,Supportive workers
+Square,0.818234950321449,14,Male,Minorities ,Supportive workers
+Square,1.34424313267095,23,Female,Hispanic_or_Latino,Supportive workers
+Square,7.5978959672706,130,Female,White,Supportive workers
+Square,1.51957919345412,26,Female,Black_or_African_American,Supportive workers
+Square,1.75336060783168,30,Female,Asian,Supportive workers
+Square,0.876680303915839,15,Female,Minorities ,Supportive workers
+Twitter,0.237127371273713,7,Male,Hispanic_or_Latino,Executive and manager
+Twitter,6.84281842818428,202,Male,White,Executive and manager
+Twitter,0.203252032520325,6,Male,Black_or_African_American,Executive and manager
+Twitter,2.40514905149051,71,Male,Asian,Executive and manager
+Twitter,0.169376693766938,5,Male,Minorities ,Executive and manager
+Twitter,0.237127371273713,7,Female,Hispanic_or_Latino,Executive and manager
+Twitter,3.55691056910569,105,Female,White,Executive and manager
+Twitter,0.101626016260163,3,Female,Black_or_African_American,Executive and manager
+Twitter,1.21951219512195,36,Female,Asian,Executive and manager
+Twitter,0.13550135501355,4,Female,Minorities ,Executive and manager
+Twitter,2.03252032520325,60,Male,Hispanic_or_Latino,Professionals
+Twitter,26.7615176151761,790,Male,White,Professionals
+Twitter,1.05013550135501,31,Male,Black_or_African_American,Professionals
+Twitter,17.479674796748,516,Male,Asian,Professionals
+Twitter,1.05013550135501,31,Male,Minorities ,Professionals
+Twitter,0.982384823848238,29,Female,Hispanic_or_Latino,Professionals
+Twitter,10.6368563685637,314,Female,White,Professionals
+Twitter,0.609756097560976,18,Female,Black_or_African_American,Professionals
+Twitter,7.8929539295393,233,Female,Asian,Professionals
+Twitter,0.880758807588076,26,Female,Minorities ,Professionals
+Twitter,0.474254742547425,14,Male,Hispanic_or_Latino,Supportive workers
+Twitter,4.74254742547426,140,Male,White,Supportive workers
+Twitter,0.372628726287263,11,Male,Black_or_African_American,Supportive workers
+Twitter,0.745257452574526,22,Male,Asian,Supportive workers
+Twitter,0.0677506775067751,2,Male,Minorities ,Supportive workers
+Twitter,0.575880758807588,17,Female,Hispanic_or_Latino,Supportive workers
+Twitter,6.06368563685637,179,Female,White,Supportive workers
+Twitter,0.237127371273713,7,Female,Black_or_African_American,Supportive workers
+Twitter,1.79539295392954,53,Female,Asian,Supportive workers
+Twitter,0.440379403794038,13,Female,Minorities ,Supportive workers
+Uber,0.22090059473237,13,Male,Hispanic_or_Latino,Executive and manager
+Uber,8.24129141886151,485,Male,White,Executive and manager
+Uber,0.254885301614274,15,Male,Black_or_African_American,Executive and manager
+Uber,3.29651656754461,194,Male,Asian,Executive and manager
+Uber,0.22090059473237,13,Male,Minorities ,Executive and manager
+Uber,0.203908241291419,12,Female,Hispanic_or_Latino,Executive and manager
+Uber,3.04163126593033,179,Female,White,Executive and manager
+Uber,0.101954120645709,6,Female,Black_or_African_American,Executive and manager
+Uber,1.03653355989805,61,Female,Asian,Executive and manager
+Uber,0.186915887850467,11,Female,Minorities ,Executive and manager
+Uber,1.63126593033135,96,Male,Hispanic_or_Latino,Professionals
+Uber,25.9133389974511,1525,Male,White,Professionals
+Uber,0.86661002548853,51,Male,Black_or_African_American,Professionals
+Uber,21.1894647408666,1247,Male,Asian,Professionals
+Uber,1.44435004248088,85,Male,Minorities ,Professionals
+Uber,0.815632965165676,48,Female,Hispanic_or_Latino,Professionals
+Uber,9.34579439252336,550,Female,White,Professionals
+Uber,0.64570943075616,38,Female,Black_or_African_American,Professionals
+Uber,7.30671197960918,430,Female,Asian,Professionals
+Uber,0.662701784197111,39,Female,Minorities ,Professionals
+Uber,1.10450297366185,65,Male,Hispanic_or_Latino,Supportive workers
+Uber,3.99320305862362,235,Male,White,Supportive workers
+Uber,1.20645709430756,71,Male,Black_or_African_American,Supportive workers
+Uber,0.458793542905692,27,Male,Asian,Supportive workers
+Uber,0.458793542905692,27,Male,Minorities ,Supportive workers
+Uber,0.781648258283772,46,Female,Hispanic_or_Latino,Supportive workers
+Uber,2.7357689039932,161,Female,White,Supportive workers
+Uber,1.73322005097706,102,Female,Black_or_African_American,Supportive workers
+Uber,0.458793542905692,27,Female,Asian,Supportive workers
+Uber,0.441801189464741,26,Female,Minorities ,Supportive workers
+View,0.217391304347826,1,Male,Hispanic_or_Latino,Executive and manager
+View,9.56521739130435,44,Male,White,Executive and manager
+View,0.652173913043478,3,Male,Black_or_African_American,Executive and manager
+View,2.82608695652174,13,Male,Asian,Executive and manager
+View,0.869565217391304,4,Male,Minorities ,Executive and manager
+View,0.217391304347826,1,Female,Hispanic_or_Latino,Executive and manager
+View,0.652173913043478,3,Female,White,Executive and manager
+View,0,0,Female,Black_or_African_American,Executive and manager
+View,0.869565217391304,4,Female,Asian,Executive and manager
+View,0,0,Female,Minorities ,Executive and manager
+View,2.17391304347826,10,Male,Hispanic_or_Latino,Professionals
+View,12.1739130434783,56,Male,White,Professionals
+View,0.217391304347826,1,Male,Black_or_African_American,Professionals
+View,6.30434782608696,29,Male,Asian,Professionals
+View,0.869565217391304,4,Male,Minorities ,Professionals
+View,0,0,Female,Hispanic_or_Latino,Professionals
+View,2.60869565217391,12,Female,White,Professionals
+View,0.217391304347826,1,Female,Black_or_African_American,Professionals
+View,3.47826086956522,16,Female,Asian,Professionals
+View,0,0,Female,Minorities ,Professionals
+View,1.52173913043478,7,Male,Hispanic_or_Latino,Supportive workers
+View,26.304347826087,121,Male,White,Supportive workers
+View,13.2608695652174,61,Male,Black_or_African_American,Supportive workers
+View,5,23,Male,Asian,Supportive workers
+View,1.08695652173913,5,Male,Minorities ,Supportive workers
+View,0.217391304347826,1,Female,Hispanic_or_Latino,Supportive workers
+View,5.21739130434783,24,Female,White,Supportive workers
+View,1.08695652173913,5,Female,Black_or_African_American,Supportive workers
+View,2.17391304347826,10,Female,Asian,Supportive workers
+View,0.217391304347826,1,Female,Minorities ,Supportive workers

@@ -1,0 +1,214 @@
+
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Silicon Valley Diversity</title>
+    <link href='http://fonts.googleapis.com/css?family=Cabin:500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
+
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="lib.js"></script>
+</head>
+
+<body>
+	<div id="Intro" style = "padding: 180px 0">
+		<h2>
+			The Tech Company Diversity in Silicon Valley
+		</h2>
+		<h3 style="padding: 0 0 60px 0">
+			We visualized EEO-1 report of the largest tech companies <br> headquartered in Silicon Valley
+		</h3>
+		<p style = "text-align:center; margin-left: 10%; margin-right: 10%">
+			By Zheru Jiang, Yixin Duan, Shuangke Li, David Howard
+		</p>
+	</div>
+
+	<!-- the D3 content goes here -->
+	<div id = "d3Stuff" class = "part1">
+		<div id = "leftHold">
+			<div id = "leftFloat">
+				<div id = "part_1_text" style = "margin-top: 75vh">
+					<p>Let’s look at all the employees who work for
+					the 24 named companies in the silicon valley.
+					There are 375,780 employees in total. We use
+					each dot to represent 100 people in the graph.
+					</p>
+				</div>
+				<div id = "part_2_text">
+					<p>
+					The job categories these companies reported includes:
+					</p>
+					<p>
+					Executives
+					</p>
+					<p>
+					Managers
+					</p>
+					<p>
+					Professionals (includes engineers, analysts,
+					designers, web developers, lawyers and other
+					professionals)
+					</p>
+					<p>
+					Other workers (includes administrative
+					support, laborers and helpers, sales workers,
+					technicians, craft workers, operatives).
+					</p>
+				</div>
+				<div id = "part_3_text"> <!-- add something here for it to position fixed for a bit -->
+					<p>
+					Among all 375,780 employees, there are only 3768 executives, who have made their way to the top 1% of leadership in the 24 companies.
+					</p>
+				</div>
+				<div id = "part_4_text"><!-- add something here for it to position fixed for a bit -->
+					<p>
+					Bellow executives, 55380 managers (14.74%
+					of the population) secured their places in the
+					top 15.74% of leadership
+					</p>
+				</div>
+				<div id = "spacer">
+				</div>
+			</div>
+			<div id = "leftFloat">
+				<div id = "part_5_text">
+					<p>
+					The majority of the employees can find their
+					places between the 15.74 percentile to the
+					72.5 percentile of leadership.
+					</p>
+				</div>
+				<div id = "part_6_text">
+					<p>
+					If we draw a Y-axis to represent the leadership
+					percentile. Executives will be drawn over the
+					top 1% and other workers will be placed at the
+					bottom. Let’s also separate male and female
+					employees, and map our dots along the axis.
+					</p>
+				</div>
+				<div id = "part_6_test" style = "opacity:0; margin-top:200%">
+					<p>
+					If we draw a Y-axis to represent the leadership
+					percentile. Executives will be drawn over the
+					top 1% and other workers will be placed at the
+					bottom. Let’s also separate male and female
+					employees, and map our dots along the axis.
+					</p>
+				</div>
+			</div>
+			<div id = "leftFloat">
+				<div id = "part_7_text" style = "margin-top:0px; margin-bottom:0px">
+					<p>
+					Next, we can color the dots by employee’s
+					race.
+					</p>
+					<p>
+					</br>
+					<img src = "./assets/race_legend_wtext.png" height = "152" width = "109"></img>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div id = "rightFloat">
+			<div id = "caption">
+				<h5 id = "svgText">
+					<!--to be filled with js generated stuff -->
+				</h5>
+				<svg id = "theDOTS">
+				</svg>
+			</div>
+		</div>
+	</div>
+	<div id = "boxHolder" height = "300vh">
+		<div id = "part1-2" class = "part1">
+			
+			<div id = 'box_texts'>
+				<p id = "box_text_1" class = "active">
+					Let’s see if we can find your your place in these companies.
+					Below are the 24 tech companies who reported their diversity in EEO-1 report in 2016. Each square represents 100% of their employees. The total number of employees is written.
+				</p>
+				<p id = "box_text_2" class = "inactive" style = "margin-bottom: 0px">
+					Now let's see how many positions are filled by
+					<label for="genderSelect"></label>
+					<select class="gender_select" id="selection1" onchange="hightlight_change()">
+						<option value="female">Female</option>
+						<option value="male">Male</option>
+					</select>
+					employees.
+				</p>
+				<p id = "box_text_3" class = "inactive" style = "margin-bottom: 0px">
+					Among all the
+					<label for="genderSelect"></label>
+					<select class="gender_select" id="selection3" onchange="hightlight_change()">
+						<option value="female">Female</option>
+						<option value="male">Male</option>
+					</select>
+					employees, how many of them are
+					<label for="genderSelect"></label>
+					<select class="ethnicity_select" id="selection2" onchange="hightlight_change()">
+						<option value="white">White</option>
+						<option value="asian">Asian</option>
+						<option value="african">African</option>
+						<option value="hispanic">Hispanic</option>
+						<option value="minority">Minorities</option>
+					</select>?
+				</p>
+				<div id="checkbox" class = "inactive" style = "margin-bottom: 0px">
+					<input type="checkbox" class = "checkbox" id="sortCheckBox" onclick="change_pos(0)">Sort by current selection
+				</div>
+			</div>
+<!-- 			<p id = "sortLine" class = "active">
+				<input type = "checkbox" id ="sorted" onclick="sortPlease()">Sort by Current selection
+			</p>
+			<h4 id = "header1" style = "text-align: center"></h4>
+			<select id="selection1" onchange="genderChange()">
+				<option value="female">Female</option>
+				<option value="male">Male</option>
+			</select>
+			<h4 id="header2" style = "text-align: center"></h4>
+			<select id="selection2" onchange="genderChange()">
+				<option value="white">White</option>
+				<option value="asian">Asian</option>
+				<option value="african">African</option>
+				<option value="hispanic">Hispanic</option>
+				<option value="minority">Monorities</option>
+			</select>
+			<h4 id="header3" style = "text-align: center"></h4><br> -->
+
+			<div id="svgHolder">
+				<!-- <svg id="svgCanvas" width="900" height="900" viewBox="0 0 1000 1000"></svg> -->
+			</div>
+		</div>
+		<div id = "boxSpacer">
+		</div>
+	</div>
+		<!-- D3 is done-->
+	<div>
+		<!-- Zheru's stuff goes here -->
+    <div class = "explore">
+			<div class = "lead_text">
+				<p>Check out more details! You can hover on each company's glyph to learn more about their demographics.</p>
+			</div>
+			<div class = "chart_sheet">
+				<div id = "gender_barchart">
+					<h4 class = "chart_title">Gender Ratio</h4>
+				</div>
+				<div class = "com_rosechart">
+					<h4 class = "chart_title">Distribution on Job Categories</h4>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+<script src="./d3_template.js"></script>
+
+
+</html>
