@@ -1477,8 +1477,8 @@ function graphic8()
 
 	var circsPlaced = dots.selectAll('.dots-style')
 		.transition()
-		.style('stroke', d3.rgb(150,150,150))
-		.style('stroke-width', 2)
+		.style('stroke', d3.rgb(255,255,255))
+		.style('stroke-width', 0.5)
 		.duration(500);
 
 		graphic9();
@@ -1953,7 +1953,6 @@ d3.csv('dataset_update.csv', function(csv_data) {
 	filter.append('feGaussianBlur')
 		.attr('in', 'SourceGraphic')
 		.attr('stdDeviation', 5);
-
 
 	// company rectangle box
 	var g = svg.selectAll('g')
