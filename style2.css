@@ -30,6 +30,7 @@ body {
 }
 .lead_text p{
 	color: #4a4a4a;
+	margin: 0;
 }
 .explore .chart_sheet{
 	position:relative;
