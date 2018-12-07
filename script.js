@@ -50,9 +50,11 @@ NGChart.rose = function(tooltip) {
 		tooltip.transition()
 			.duration(200)
 			.style('opacity', .9);
+		
+		console.log(d3.event.pageX, d3.event.pageY - window.pageYOffset)
 		tooltip
-			.style("left", (d3.event.pageX) - 150 + "px")
-			.style("top", (d3.event.pageY) - 155 + "px");
+			.style("left", (d3.event.pageX) - 150 + 'px')
+			.style("top",  (d3.event.pageY - window.pageYOffset - 150) + 'px');
 
 		console.log(d);
 		percents = [];
@@ -68,7 +70,10 @@ NGChart.rose = function(tooltip) {
 			.append('text')
 			.text(d.info.job + " " + d.info.vals[4].toFixed(2) + "%");
 
-		g = tooltip.append('svg').selectAll('g')
+		console.log(percents);
+		g = tooltip.append('svg')
+			.style('margin', 0)
+			.selectAll('g')
 			.data(percents)
 			.enter();
 
