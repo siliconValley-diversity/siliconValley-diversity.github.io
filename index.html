@@ -3,30 +3,28 @@
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Silicon Valley Diversity</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./style2.css">
+  <meta charset="UTF-8">
+  <title>Silicon Valley Diversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style2.css">
 
-	<script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
 
 	<script type="text/javascript" src="script.js"></script>
 	<script type="text/javascript" src="lib.js"></script>
 </head>
 
 <body>
-	<div id="Intro" >
-		<h2>
-			The Tech Company Diversity in Silicon Valley
-		</h2>
-		<h3 style="padding: 0 0 60px 0">
-			We visualized EEO-1 report of the largest tech companies <br> headquartered in Silicon Valley
-		</h3>
-		<p style = "text-align:center; margin-left: 10%; margin-right: 10%">
-			By Zheru Jiang, Yixin Duan, Shuangke Li, David Howard
-		</p>
-	</div>
+  <div id="intro">
+    <div class = "flex-container flex-column flex-center">
+    	<h1 class = "title">
+    		The Tech Company Diversity in Silicon Valley
+    	</h1>
+    	<h3 class = "des">We visualized EEO-1 report of the largest tech companies headquartered in Silicon Valley</h3>
+    	<p>By Zheru Jiang, Yixin Duan, Shuangke Li, David Howard</p>
+    </div>
+  </div>
 
 	<!-- the D3 content goes here -->
 	<div id = "d3Stuff" class = "part1">
@@ -171,9 +169,8 @@
 		<div id = "boxSpacer">
 		</div>
 	</div>
-		<!-- D3 is done-->
-	<div>
-		<!-- Zheru's stuff goes here -->
+	<!-- D3 is done-->
+	<!-- Zheru's stuff goes here -->
     <div class = "explore">
 			<div class = "lead_text">
 				<p>Check out more details! You can hover on each company's glyph to learn more about their demographics.</p>
@@ -188,7 +185,6 @@
 			</div>
 		</div>
 
-	</div>
 </body>
 <script src="./d3_template.js"></script>
 

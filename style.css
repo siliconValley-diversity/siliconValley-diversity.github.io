@@ -4,14 +4,66 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+html{
+	font-size: 16px;
+}
 body {
 	font-family: 'Arial', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: normal;
 	color: #474747;
 	width: 100%;
 	min-height: 100%;
 	background-color: rgb(33,33,33);
+}
+
+.flex-container{
+	display: flex;
+}
+.flex-row{
+	flex-flow: row;
+}
+.flex-column{
+	flex-flow: column;
+}
+.flex-center{
+	justify-content: center;
+	align-items: center;
+}
+.flex-start{
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+h1, h2, h3{
+	font-family: 'Georgia';
+	color: #FCDCBF;
+	font-weight: bold;
+}
+
+h4, h5, h6{
+
+}
+
+#intro{
+	color: rgb(255,255,255);
+ 	height: 100vh;
+ 	margin: auto;
+	padding-top: 25vh;
+	width: 70%;
+	text-align: center;
+}
+
+#intro .title{
+	font-size: 4rem;
+}
+#intro .des{
+	padding-bottom: 3rem;
+	color: #D7D8D8;
+	line-height: 1.6;
+	font-size: 1.2rem;
+	margin: 3rem 0;
+	width: 70%;
 }
 
 #spacer{
@@ -90,39 +142,12 @@ input[type="checkbox"] {
 	text-anchor:middle;
 }
 
-#Intro{
-	background-color: rgb(33,33,33);
-	color: rgb(255,255,255);
- 	height: 100vh;
- 	margin: auto;
-	padding-top: 20vh;
-}
-
 #leftFloat div{
 	/* position: relative; */
 	height: 100vh;
 	clear: both;
 	margin-top: 50vh;
 	margin-bottom: 50vh;
-}
-
-h1 {
-	width: 70%;
-	position: relative;
-	transform: translate(0%, 0);
-	margin: 20px 5% 20px 5%;
-	text-align: center;
-	font-size: 24px;
-}
-
-h2{
-	font-family: 'Georgia Bold';
-	font-weight: bold;
-	color: #FCDCBF;
-	position: relative;
-	margin: 20px 20% 20px 20%;
-	text-align: center;
-	font-size: 4rem;
 }
 
 .h2{
@@ -132,17 +157,6 @@ h2{
 	margin: 20px 20% 20px 20%;
 	text-align: center;
 	font-size: 1.3rem;
-}
-
-h3{
-	position: relative;
-	transform: translate(0%, 0);
-	text-align: center;
-	margin: 50px 25% 50px 25%;
-	font-family: 'Georgia';
-	color: #D7D8D8;
-	font-size: 1.3rem;
-	line-height: 160%;
 }
 
 #caption h5{
