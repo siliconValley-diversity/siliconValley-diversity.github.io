@@ -17,7 +17,7 @@
 </head>
 
 <body>
-	<div id="Intro" style = "padding: 180px 0">
+	<div id="Intro" >
 		<h2>
 			The Tech Company Diversity in Silicon Valley
 		</h2>
@@ -128,7 +128,7 @@
 	</div>
 	<div id = "boxHolder" height = "300vh">
 		<div id = "part1-2" class = "part1">
-			
+
 			<div id = 'box_texts'>
 				<p id = "box_text_1" class = "active">
 					Let’s see if we can find your your place in these companies.
@@ -153,34 +153,17 @@
 					employees, how many of them are
 					<label for="genderSelect"></label>
 					<select class="ethnicity_select" id="selection2" onchange="hightlight_change()">
-						<option value="white">White</option>
-						<option value="asian">Asian</option>
+						<option value="minority">Minorities</option>
 						<option value="african">African</option>
 						<option value="hispanic">Hispanic</option>
-						<option value="minority">Minorities</option>
+						<option value="asian">Asian</option>
+						<option value="white">White</option>
 					</select>?
 				</p>
 				<div id="checkbox" class = "inactive" style = "margin-bottom: 0px">
 					<input type="checkbox" class = "checkbox" id="sortCheckBox" onclick="change_pos(0)">Sort by current selection
 				</div>
 			</div>
-<!-- 			<p id = "sortLine" class = "active">
-				<input type = "checkbox" id ="sorted" onclick="sortPlease()">Sort by Current selection
-			</p>
-			<h4 id = "header1" style = "text-align: center"></h4>
-			<select id="selection1" onchange="genderChange()">
-				<option value="female">Female</option>
-				<option value="male">Male</option>
-			</select>
-			<h4 id="header2" style = "text-align: center"></h4>
-			<select id="selection2" onchange="genderChange()">
-				<option value="white">White</option>
-				<option value="asian">Asian</option>
-				<option value="african">African</option>
-				<option value="hispanic">Hispanic</option>
-				<option value="minority">Monorities</option>
-			</select>
-			<h4 id="header3" style = "text-align: center"></h4><br> -->
 
 			<div id="svgHolder">
 				<!-- <svg id="svgCanvas" width="900" height="900" viewBox="0 0 1000 1000"></svg> -->
