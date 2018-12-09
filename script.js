@@ -51,12 +51,10 @@ NGChart.rose = function(tooltip) {
 			.duration(200)
 			.style('opacity', .9);
 		
-		console.log(d3.event.pageX, d3.event.pageY - window.pageYOffset)
 		tooltip
 			.style("left", (d3.event.pageX) - 150 + 'px')
 			.style("top",  (d3.event.pageY - window.pageYOffset - 150) + 'px');
 
-		console.log(d);
 		percents = [];
 		percents[0] = d.info.vals[0];
 		percents[1] = d.info.vals[1] - d.info.vals[0];
@@ -70,7 +68,6 @@ NGChart.rose = function(tooltip) {
 			.append('text')
 			.text(d.info.job + " " + d.info.vals[4].toFixed(2) + "%");
 
-		console.log(percents);
 		g = tooltip.append('svg')
 			.style('margin', 0)
 			.selectAll('g')
@@ -236,25 +233,26 @@ NGChart.rose = function(tooltip) {
 
         // Append labels to the wedgeGroups:
 		var numLabels = d3.selectAll('.label-path')._groups[0].length;
-
-		wedgeGroups.selectAll('.label-path')
-			.data( function(d,i) {
-				return [
-					{
-						'index': i,
-						'angle': d.angle,
-						'radius': d3.max( d.radius.concat( [23] ) )
-					}
-				];
-			} )
-		  .enter().append('svg:path')
-		  	.attr('class', 'label-path')
-		  	.attr('id', function(d) {
-		  		return 'label-path' + (d.index + numLabels);
-		  	})
-			.attr('d', arc)
-		  	.attr('fill', 'none')
-		  	.attr('stroke', 'none');
+		
+		// wedgeGroups.selectAll('.label-path')
+		// 	.data( function(d,i) {
+		// 		return [
+		// 			{
+		// 				'index': i,
+		// 				'angle': d.angle,
+		// 				'radius': d3.max( d.radius.concat( [23] ) )
+		// 			}
+		// 		];
+		// 	} )
+		//   .enter().append('svg:path')
+		//   	.attr('class', 'label-path')
+		//   	.attr('id', function(d) {
+		// 		console.log(d, d.index);
+		//   		return 'label-path' + (d.index + numLabels);
+		//   	})
+		// 	.attr('d', arc)
+		//   	.attr('fill', 'none')
+		//   	.attr('stroke', 'none');
 
 		wedgeGroups.selectAll('.label')
 			.data( function(d,i) {

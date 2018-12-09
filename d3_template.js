@@ -1,5 +1,4 @@
-document.addEventListener("wheel",scrollChange, {passive:true});
-//document.getElementById("genderSelect").addEventListener("click", genderSelect, {passive:true});
+document.addEventListener("wheel", scrollChange, {passive:true});
 
 var jobTitleArray = ["Supportive workers", "Professionals", "Managers", "Executives"]; //list of jobs titles that are option
 var raceArray = ["White", "Asian", "Hispanic_or_Latino", "Black_or_African_American", "Minorities"]; //list of possible races
@@ -8,22 +7,6 @@ var genderArray = ["Male", "Female"];// list of possible genders
 var dotCount = []; //a count of every combination of people
 var dotArray = [];
 //an array of arrays [job type, ethnicity, gender, count]
-
-var  managerPercent = 0;
-var  executivePercent = 0;
-var  professionalPercent = 0;
-var  otherWorkerPercent = 0;
-//just sum up everything from Stella’s dataset
-
-var  managerNum = 0;
-var  executiveNum = 0;
-var  professionalNum = 0;
-var  otherNum = 0;
-//just sum up everything from Stella’s dataset
-
-var companyTotals = []; //total company population organized by company name
-var totalPopulationNum = 0; //sum of the above
-
 
 /*
 dot class attributes
@@ -38,25 +21,11 @@ physics
 whatever this ends up being? Maybe? Probably?
 */
 
-
-//Part2
-
-
 //state controlling vars
 var lastState = -1;
 var thisState = 0;
 var loaded = 0;
 var drawn = -1;
-
-
-
-
-
-//drawing boxes stuff
-var boxLength = 70;
-var spacing = 20;
-var boxOutline = 1;
-var boxTextOffset = boxLength + 14;
 
 //drawing dots stuff
 var dotCols = 45;
@@ -66,42 +35,18 @@ var defDotStroke = d3.rgb(75,194,195);
 
 var ethnicityColor = {"Hispanic_or_Latino": d3.rgb(255,82,21), "White": d3.rgb(252,200,112), "Black_or_African_American":d3.rgb(147,14,25), "Asian": d3.rgb(249,148,70), "Minorities": d3.rgb(78,46,55)};
 
-
-//colors stuff
-var boxOutlineColor = d3.rgb(0,0,0);
-var boxFillColor1 = d3.rgb(0,0,0);
-var boxFillColor2 = d3.rgb(30,76, 97);
-var boxFillColor3 = d3.rgb(0,0,0);
-
-var strokeColorDark = d3.rgb(0,0,0);
-var strokeColorLight = d3.rgb(255,255,255);
-
-
-
-
 //creating the different SVGs vars that are used in the top half
 var dots = d3.select('svg#theDOTS');
-// var boxes = d3.select('svg#svgCanvas');
 
 //svg dimension stuff
 var tempBox = document.getElementById('theDOTS').getBoundingClientRect();
 var dotsHeight = tempBox.height - 70;
 var dotsWidth = tempBox.width;
-//var dotsHeight = Math.trunc(+document.getElementById('theDOTS').clientHeight) -70;
-//var dotsWidth = Math.trunc(+document.getElementById('theDOTS').clientWidth);
-// var boxesHeight = Math.trunc(+document.getElementById('svgCanvas').clientHeight);
-// var boxesWidth = Math.trunc(+document.getElementById('svgCanvas').clientWidth);
 
 dotRadius = Math.trunc(dotsHeight/70);
 
-//var allScaled = d3.select('svg#allScaled');
-//var scaledCombined = d3.select('svg#scaledCombined');
-
 //the datum values that will hold all the d3 pulled data
 var companyDetailed;
-//cols -> company	year	race	gender	job_category	count
-var companyList;
-//cols -> company
 
 //mega-function for loading all the d3 stuff
 d3.csv('./dataset_split.csv', function(error, datum){
@@ -110,54 +55,16 @@ d3.csv('./dataset_split.csv', function(error, datum){
         console.error(error);
         return;
     }
-d3.csv('./Silicon-Valley-Diversity-Data-master/companyList.csv', function(error, datum2){
-	if(error) {
-		console.error('Error loading companyDetailed.csv dataset.');
-		console.error(error);
-		return;
-	}
 
 	//the datum values that will hold all the d3 pulled data
 	companyDetailed = datum;
-	//cols -> company	percentage	count	gender	race	job_category
-	companyList = datum2;
-	//cols -> company
-
-
-	//create an array of companies and their totals, because that doesn't exist...
-	//should turn this into the same format as the csv arrays at some point.
-	companyList.forEach(d =>{
-		var tempTotal = 0;
-		companyDetailed.forEach(d2 => {
-			if(d2['Company'] == d['company'])
-			{
-				tempTotal += +d2['Count'];
-			}
-		});
-		var temp = d['company'];
-		companyTotals.push({"company" : temp , "total" : tempTotal});
-		totalPopulationNum += tempTotal;
-	});
 
 	//scary array I'm praying works
-	var addFlag = 0;
 	jobTitleArray.forEach(d =>{
 		raceArray.forEach(d2 =>{
 			var tempSum = 0;
 			genderArray.forEach(d5 =>{
 				companyDetailed.forEach(d4 =>{
-					if(addFlag == 0)//gonna create my total counts while we're here
-					{
-						if(d4['job_category'] == "Manager")
-							managerNum += +d4['Count'];
-						if(d4['job_category'] == "Executive")
-							executiveNum += +d4['Count'];
-						if(d4['job_category'] == "Professionals")
-							professionalNum += +d4['Count'];
-						if(d4['job_category'] == "Supportive Workers")
-							otherNum += +d4['Count'];
-					}
-					addFlag = 1;
 					if(d4['Gender'] == d5 && d4['Race'] == d2 && d4['job_category'] == d)
 					{
 						tempSum+= +d4['Count'];
@@ -170,11 +77,6 @@ d3.csv('./Silicon-Valley-Diversity-Data-master/companyList.csv', function(error,
 	});
 	//should be called in the format: dotCount[‘executive’[‘white’[‘male’]]] = 32;
 
-	//go ahead and finish instatiating the rest of the variables I need
-	managerPercent = managerNum/totalPopulationNum;
-	executivePercent = executiveNum/totalPopulationNum;
-	professionalPercent = professionalNum/totalPopulationNum;
-	otherWorkerPercent = otherNum/totalPopulationNum;
 
 	//creating the array of all the dots now that we have the counts
 	dotCount.forEach(d =>{
@@ -189,12 +91,9 @@ d3.csv('./Silicon-Valley-Diversity-Data-master/companyList.csv', function(error,
 		}
 	});
 
-
-
 	preLoad();
 	loaded = 1;
 	scrollChange();
-});
 });
 
 function dot(work, ethnicity, gender, x, y, color, label, extra){
@@ -237,7 +136,6 @@ function update(){
 		state11();
 	if(temp =="part12") //DONE. allows scrolling to the Lee's phase. make sure to not get despawn the graphics
 		state12();
-
 }
 
 
@@ -495,8 +393,6 @@ function preLoad()
 			})
 			.text("100%");
 
-
-
 	var dotsPlaced = dots.selectAll('dots')
 		.data(dotArray)
 		.enter()
@@ -521,15 +417,7 @@ function state0()
 //the overall first graphic
 function state1()
 {
-	//first, the html stuff
-	//document.getElementById("caption").style.position = "sticky";
-	//document.getElementById("caption").style.top = "30%";
-	//document.getElementById("caption").style.left = "33%";
-
-
 	document.getElementById("svgText").innerHTML = "Are minority groups represented in the leadership of these tech companies?";
-	//document.getElementById("summaryText").innerHTML = "Hello, this is part 1 of the dataset summary";
-	//graphic1();
 }
 
 function graphic1() //done
@@ -553,23 +441,16 @@ function graphic1() //done
 		.transition()
 		.style('opacity', 0.0)
 		.duration(500);
-
-
 }
 
 //text changes?
 function state2(){
-	//first, the html stuff
-	//document.getElementById("caption").style.position = "fixed";
 	document.getElementById("svgText").innerHTML = "Are minority groups represented in the leadership of these tech companies?";
-	//graphic1(); //same as graphic one, so no graphicc for this
 }
 
 
 //execs fly up
 function state3(){
-	//first, the html stuff
-	//document.getElementById("caption").style.position = "fixed";
 	document.getElementById("svgText").innerHTML = "Are minority groups represented in the leadership of these tech companies?";
 	graphic3();
 }
@@ -624,17 +505,12 @@ function graphic3() //done
 		.transition()
 		.style('opacity', 0.0)
 		.duration(500);
-
 }
 
 //managers fly up
 function state4()
 {
-	//first, the html stuff
-	//document.getElementById("caption").style.position = "fixed";
-
 	document.getElementById("svgText").innerHTML = "Are minority groups represented in the leadership of these tech companies?";
-	//document.getElementById("summaryText").innerHTML = "Hello, this is part 1 of the dataset summary";
 	graphic4();
 }
 
@@ -706,14 +582,10 @@ function graphic4()
 		.transition()
 		.style('opacity', 0.0)
 		.duration(500);
-
-
 }
 
 //bottom half splits out
 function state5(){
-	//first, the html stuff
-	//document.getElementById("caption").style.position = "fixed";
 	document.getElementById("svgText").innerHTML = "Are minority groups represented in the leadership of these tech companies?";
 	graphic5();
 }
@@ -819,13 +691,10 @@ function graphic5() //done
 		.transition()
 		.style('opacity', 0.0)
 		.duration(500);
-
-
 }
 
 //remove the dots, add the scale
 function state6(){
-	//first, the html stuff
 	document.getElementById("svgText").innerHTML = "Are minority groups represented in the leadership of these tech companies?";
 	graphic6();
 }
@@ -874,8 +743,6 @@ function graphic6()
 //add the dots back by gender
 function state7()
 {
-	//first, the html stuff
-
 	document.getElementById("svgText").innerHTML = "Are minority groups represented in the leadership of these tech companies?";
 	graphic7();
 }
@@ -1014,30 +881,10 @@ function graphic7()
 //allow scrolling, move to the boxes, preload the boxes
 //color gots by race
 function state8(){
-	//first, the html stuff
 	document.getElementById("box_text_1").className = "active";
 	document.getElementById("box_text_2").className = "inactive";
 	document.getElementById("box_text_3").className = "inactive";
 	document.getElementById("checkbox").className = "inactive";
-//	graphic1();
-
-/* 	document.getElementById("selection1").style.visibility = 'hidden';
-    document.getElementById("selection2").style.visibility = 'hidden';
-    document.getElementById('checkbox').style.visibility = 'hidden';
-    document.getElementById("part1-2").style.top = "0";
-    document.getElementById("part1-2").style.left = "0";
-    var myNode = document.getElementById("svgCanvas");
-    while (myNode.firstChild) {
-        myNode.removeChild(myNode.firstChild);
-    }
-    var myNode2 = document.getElementById("header2");
-    while (myNode2.firstChild) {
-        myNode2.removeChild(myNode2.firstChild);
-    }
-    document.getElementById("header1").innerHTML = "Let's see if we can find your place in there companies.</br>" +
-        "Below are the 24 tech companies who reported their diversity in EEO-1 report in 2016. Each </br>square represents " +
-        "100% of their employees. The Total number of employees is written.";
- 	 */
 	graphic8();
 
 }
@@ -1064,15 +911,12 @@ function graphic8()
 
 //locks to the box view
 function state9(){
-	//first, the html stuff
-	//document.getElementById("caption").style.position = "fixed";
  	document.getElementById("box_text_1").className = "active";
 	document.getElementById("box_text_2").className = "inactive";
 	document.getElementById("box_text_3").className = "inactive";
 	document.getElementById("checkbox").className = "inactive";
 
 	graphic9();
-
 }
 
 function graphic9()
@@ -1084,7 +928,6 @@ function graphic9()
 //dsiplay gender drop down
 function state10()
 {
-	//first, the html stuff
  	document.getElementById("box_text_1").className = "inactive";
 	document.getElementById("box_text_2").className = "active";
 	document.getElementById("box_text_3").className = "inactive";
@@ -1101,7 +944,6 @@ function graphic10()
 
 //display gender and ethnicity
 function state11(){
-	//first, the html stuff
 	document.getElementById("box_text_1").className = "inactive";
 	document.getElementById("box_text_2").className = "inactive";
 	document.getElementById("box_text_3").className = "active";
@@ -1118,12 +960,8 @@ function graphic11()
 
 //DONE. allow scrolling to Lee's stuff
 function state12(){
-	//first, the html stuff
-	//document.getElementById("caption").style.position = "static";
 	document.getElementById("svgText").innerHTML = "Hello, this is part 12 of the dataset";
-
 }
-
 
 
 //function to trigger the new vis state
@@ -1133,7 +971,6 @@ function scrollChange(){
 	var divHeight = 1.5*view.clientHeight;
 	var screenHeight = window.innerHeight;
 	var triggerline = screenHeight*.5;
-
 
 	view.className =  "part0"
 	thisState = 0;
@@ -1206,8 +1043,6 @@ function scrollChange(){
 		console.log(thisState);
 	}
 }
-
-
 
 
 
@@ -1450,7 +1285,7 @@ d3.csv('dataset_update.csv', function(csv_data) {
 		.attr('width', svg_width)
 		.attr('height', svg_height);
 
-//define inset-shadow style
+	//define inset-shadow style
 	var def = svg.append('defs');
 	var filter = def.append('filter')
 		.attr('id', 'inset_shadow')
@@ -1562,7 +1397,7 @@ function sort_data() {
 		var gender_1 = rect_obj.genders[g1_idx];
 
 		rect_obj.g.style('fill', function(d) {
-			d.highlight = d[gender_1];
+			d.highlight = -d[gender_1];
 		});
 	} else if (thisState == 11 && checked) {
 		var r_idx = document.getElementById('selection2').selectedIndex;
@@ -1572,7 +1407,7 @@ function sort_data() {
 		var start_idx = rect_obj.races_to_id[race];
 
 		rect_obj.g.style('fill', function(d) {
-			d.highlight = d[gender_2 + '_list'][start_idx];
+			d.highlight = -d[gender_2 + '_list'][start_idx];
 		});
 	} else {
 		rect_obj.g.style('fill', function(d) {

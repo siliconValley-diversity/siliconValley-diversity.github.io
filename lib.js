@@ -292,7 +292,7 @@ function draw_rosechart({rosechart, width, height, scale, data}) {
         //draw company name bg box
         figure.selectAll("svg")
             .append('rect')
-            .attr('class', "com_name_box")
+            .attr('class', 'com_name_box rosechart ' + data_i[0].company)
             .style('fill', 'white')
             .attr('x', width/2- mask_width/2)
             .attr('y', height-mask_height)
@@ -303,7 +303,7 @@ function draw_rosechart({rosechart, width, height, scale, data}) {
 
         figure.selectAll("svg")
             .append("text")
-            .attr('class', 'com_name')
+            .attr('class', 'com_name rosechart ' + data_i[0].company)
             .attr('x', width/2)
             .attr('y', height-5)
             .style("text-anchor", "middle")
